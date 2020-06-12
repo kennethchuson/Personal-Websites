@@ -1,0 +1,96 @@
+
+body {
+    background-color: rgb(187, 180, 180); 
+}
+
+
+.jumbotron {
+    background-color: rgb(81, 231, 231); 
+    border-radius: 10px; 
+}
+
+.title_one {
+    color: white; 
+    text-shadow: 2px 2px black; 
+}
+
+.title_two_one {
+    color: white; 
+    text-shadow: 1px 1px black
+    
+}
+
+.card_one {
+    height: 320px; 
+    background-color: rgb(204, 198, 198); 
+    border-radius: 10px; 
+}
+
+.image_one, .image_two {
+    width: 180px; 
+    height: 120px;
+}
+
+.card_two {
+    height: 320px; 
+    background-color: rgb(204, 198, 198); 
+    border-radius: 10px; 
+}
+
+.card-text {
+    color: rgb(78, 76, 76); 
+}
+
+.title_two {
+    color: rgb(78, 76, 76); 
+}
+
+.card_five {
+    height: 200px; 
+    background-color: rgb(119, 115, 115); 
+    border-radius: 10px; 
+}
+
+.btn-block:hover {
+    background-color: rgb(81, 231, 231); 
+}
+
+.pop_info {
+    background-color: rgb(70, 68, 68); 
+}
+
+.pop_card_one {
+    background-color: rgb(204, 199, 199); 
+}
+
+.card_one_p {
+    color: white; 
+}
+
+.submit_button_test:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
