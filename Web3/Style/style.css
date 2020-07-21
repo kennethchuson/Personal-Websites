@@ -1,0 +1,298 @@
+body {
+  background-color: silver; 
+}
+
+.header {
+    background-color: rgb(102, 101, 101);
+}
+
+
+#Onemiddle_div_features, #Twomiddle_div_features{
+    background-color: rgb(102, 101, 101);
+}
+
+#right_div_features {
+    background-color: rgb(36, 35, 35)
+}
+
+#left_div_features {
+    background-color: rgb(36, 35, 35)
+}
+
+#OnerightText, .title {
+    color: white; 
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+p {
+  color: rgb(36, 35, 35); 
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+#btn1 {
+    height: 27px;
+    width: 30px;   
+}
+
+
+#btn0 {
+    height: 27px; 
+    width: 30px; 
+}
+
+#btn2 {
+  height: 27px; 
+  width: 30px; 
+}
+
+#btn3 {
+  height: 27px; 
+  width: 30px; 
+}
+  
+.category1 {
+    background-color: silver; 
+    border: solid rgb(36, 35, 35); 
+}
+
+
+.category2 {
+    background-color: silver;  
+    border: solid rgb(36, 35, 35);
+    width: 155.8px; 
+    height: 155.8px; 
+}
+
+.store_history {
+    background-color: rgb(145, 145, 145); 
+}
+
+
+  #grow input:checked {
+    color: white; 
+  }
+  
+  #showingHistoryInputs:hover {
+    color: black;
+  }
+  
+  
+  #grow {
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    height: 0; 
+    overflow: hidden;
+  }
+
+
+.leftSidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(36, 35, 35); 
+  overflow-x: hidden;
+  transition: 1.5s; 
+  padding-top: 55px;
+}
+
+.leftSidebar a {
+  text-decoration: none; 
+  padding: 8px 8px 8px 30px; 
+  color:white;
+  display: block;
+  transition: 0.3s;
+}
+
+.leftSidebar a:hover {
+  color: #f1f1f1;
+}
+
+.leftSidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*
+.openbtn {
+  font-size: 10px;
+  cursor: pointer; 
+  background-color: rgb(36, 35, 35);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+*/
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.backgroundChangerFile {
+  display: none; 
+  
+}
+
+.backgroundChangerFileLabel {
+  cursor: pointer;
+  font-size: 13px;
+  color: white; 
+  background-color:rgb(36, 35, 35); 
+  font-family: "Segoe UI",Arial,sans-serif;
+
+}
+
+
+
+
+.form-control {
+  width: 50%; 
+  height: 7%; 
+}
+
+#calculateButton  {
+  background-color: darkblue; 
+  cursor: pointer; 
+  color: white; 
+  border: none; 
+  width: 80%;  
+  height: 10%; 
+  margin: 10px; 
+}
+#calculateButton:hover {
+  width: 90%;  
+  height: 12%;
+  transition: 0.3s;
+}  
+#reset {
+  background-color: red; 
+  cursor: pointer; 
+  color: white; 
+  border: none; 
+  width: 80%;  
+  height: 10%; 
+  margin: 10px;
+}
+#reset:hover {
+  width: 90%;  
+  height: 12%;
+  transition: 0.3s;
+} 
+
+.putPoints {
+  background-color: #eee;
+  border: 2px solid black; 
+  color: #444;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.optionPutPoint {
+  background-color: silver; 
+  border: solid rgb(36, 35, 35); 
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.userPrefencesDIV{
+  background-color: rgb(36, 35, 35); 
+  border: solid rgb(136, 136, 136);  
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+label {
+  color: white; 
+  font-family: "Segoe UI",Arial,sans-serif;
+
+}
+
+
+
+.switchToggleBackgroundColor {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switchToggleBackgroundColor input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
